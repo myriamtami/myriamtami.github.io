@@ -124,6 +124,7 @@
                                                 <option class="filter" value="jpaper">Jounal Papers</option>
                                                 <option class="filter" value="progressjpaper">Jounal Papers in progress</option>
                                                 <option class="filter" value="thesis">Thesis</option>
+                                                <option class="filter" value="implementation">Implementation</option>
                                                 <option class="filter" value="internconference">International conferences</option>
                                                 <option class="filter" value="natconference">National conferences</option>
                                                 <option class="filter" value="poster">Posters</option>
@@ -198,7 +199,7 @@
 
                                                     <h4 class="pubtitle">Simultaneous EM estimation of a structural equation model and its latent factors</h4>
                                                     <div class="pubauthor">Tami M., Bry X., Lavergne C.</div>
-                                                    <div class="pubcite"><span class="label label-success">Journal Paper</span> Submitted for publication</div>
+                                                    <div class="pubcite"><span class="label label-success">Journal Paper</span> Submitted</div>
 
                                                   </div>
                                                   <div class="pubdetails">
@@ -256,7 +257,29 @@
                                                     <p>De Saporta B. (jury president), Saporta G. (reviewer), Saracco J. (reviewer),  Trinchera L. (examinator), Lavergne C. (supervisor), Bry X. (co-supervisor)</p>
                                                     <br/>
                                                     <h4>Abstract</h4>
-                                                    <p>Structural equation models enable the modeling of interactions between observed variables and latent ones. The two leading estimation methods are partial least squares on components and covariance-structure analysis. In this work, we first describe the PLS-PM and LISREL methods and, then, we propose an estimation method using the EM algorithm in order to maximize the likelihood of a structural equation model with latent factors. Through a simulation study, we investigate how fast and accurate the method is, and thanks to an application to real environmental data, we show how one can handly construct a model or evaluate its quality. Finally, in the context of oncology, we apply the EM approach on health-related quality-of-life data. We show that it simplifies the longitudinal analysis of quality-of-life and helps evaluating the clinical benefit of a treatment.</p>
+                                                    <p>Structural equation models enable the modeling of interactions between observed variables and latent ones. The two leading estimation methods are partial least squares on components and covariance-structure analysis. In this work, we first describe the PLS-PM and CBSEM methods and, then, we propose an estimation method using the EM algorithm in order to maximize the likelihood of a structural equation model with latent factors. Through a simulation study, we investigate how fast and accurate the method is, and thanks to an application to real environmental data, we show how one can handly construct a model or evaluate its quality. Finally, in the context of oncology, we apply the EM approach on health-related quality-of-life data. We show that it simplifies the longitudinal analysis of quality-of-life and helps evaluating the clinical benefit of a treatment.</p>
+                                                  </div>
+                                                </div>
+
+                                                <div class="item mix implementation" data-year="2018">
+                                                  <div class="pubmain">
+                                                    <div class="pubassets">
+                                                      <a href="#" class="pubcollapse">
+                                                        <i class="fa fa-expand"></i>
+                                                      </a>
+                                                      <a href="https://github.com/myriamtami/EMsem" class="tooltips" title="External link" target="_blank">
+                                                        <i class="fa fa-external-link"></i>
+                                                      </a>
+                                                    </div>
+
+                                                    <h4 class="pubtitle">EMsem</h4>
+                                                    <div class="pubauthor">Tami M.</div>
+                                                    <div class="pubcite"><span class="label label-primary">R package </span>available on my github</div>
+
+                                                  </div>
+                                                  <div class="pubdetails">
+                                                    <h4>Description</h4>
+                                                    <p>This R package is an implementation of a simultaneous EM estimation of a structural equation model and its latent factors. Fits structural equation models using EM algorithm.  More precisely, the model is a multi-block latent factor model with one structural equation which the latent variables are latent factors. The EM approach consists in viewing the latent factors as missing data and using the EM algorithm to maximize the whole model’s likelihood, which simultaneously provides estimators not only of the model’s coefficients, but also of the values of latent factors.</p>
                                                   </div>
                                                 </div>
 
@@ -320,7 +343,10 @@
                                                   </div>
                                                   <div class="pubdetails">
                                                     <h4>Abstract</h4>
-                                                    <p></p>
+                                                    <p>The ensemble methods are popular machine learning techniques which are powerful when one wants to deal with both classification or prediction problems. A set of classifiers (regression or classification trees) is constructed, and the classification or the prediction  of a new data instance is done by tacking a weighted vote.
+                                                      A tree is a piece-wise constant estimator on partitions obtained from the data. These partitions are induced by recursive dyadic split of the set of input variables. For example, CART (Classification And Regression Trees) [Breiman et al., 1984] is an efficient algorithm for the construction of a tree.
+                                                      The goal is to partition the space of input variable values in the most as possible "homogeneous" K disjoint regions. More precisely, each partitioning value has to minimize a risk function. However, in practice, experimental measures can be observed with uncertainty. This work proposes to extend CART algorithm to this kind of data.
+                                                      We present an induced model adapted to uncertainty data and both a prediction and split rule for a tree construction taking into account the uncertainty of each quantitative observation from the data base.</p>
                                                   </div>
                                                 </div>
 
