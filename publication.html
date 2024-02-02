@@ -152,7 +152,142 @@
                                         <div class="col-md-12">
                                             <div class="pitems">
 
-                                              <div class="item mix natconference" data-year="2017">
+                                              <div class="item mix internconference" data-year="2023">
+                                                <div class="pubmain">
+                                                  <div class="pubassets">
+                                                    <a href="#" class="pubcollapse">
+                                                      <i class="fa fa-expand"></i>
+                                                    </a>
+                                                    <a href="https://arxiv.org/pdf/2303.18211.pdf" class="tooltips" title="PDF" target="_blank">
+                                                        <i class="fa fa-cloud-download"></i>
+                                                    </a>
+                                                  </div>
+
+                                                  <h4 class="pubtitle">A Scale-Invariant Sorting Criterion to Find a Causal Order in Additive Noise Models</h4>
+                                                  <div class="pubauthor">Reisach A. G., Tami M., Seiler C., Chambaz A., Weichwald S.</div>
+                                                  <div class="pubcite"><span class="label label-warning">International conference</span>NeurIPS 2023</div>
+
+                                                </div>
+                                                <div class="pubdetails">
+                                                  <h4>Abstract</h4>
+                                                  <p>Additive Noise Models (ANMs) are a common model class for causal discovery
+                                                    from observational data. Due to a lack of real-world data for which an underlying
+                                                    ANM is known, ANMs with randomly sampled parameters are commonly used
+                                                    to simulate data for the evaluation of causal discovery algorithms. While some
+                                                    parameters may be fixed by explicit assumptions, fully specifying an ANM requires
+                                                    choosing all parameters. Reisach et al. (2021) show that, for many ANM parameter
+                                                    choices, sorting the variables by increasing variance yields an ordering close to
+                                                    a causal order and introduce ‘var-sortability’ to quantify this alignment. Since
+                                                    increasing variances may be unrealistic and cannot be exploited when data scales
+                                                    are arbitrary, ANM data are often rescaled to unit variance in causal discovery
+                                                    benchmarking.
+                                                    We show that synthetic ANM data are characterized by another pattern that is
+                                                    scale-invariant and thus persists even after standardization: the explainable fraction
+                                                    of a variable’s variance, as captured by the coefficient of determination R2, tends
+                                                    to increase along the causal order. The result is high ‘R2-sortability’, meaning
+                                                    that sorting the variables by increasing R2 yields an ordering close to a causal
+                                                    order. We propose a computationally efficient baseline algorithm termed ‘R2-
+                                                    SortnRegress’ that exploits high R2-sortability and that can match and exceed the
+                                                    performance of established causal discovery algorithms. We show analytically that
+                                                    sufficiently high edge weights lead to a relative decrease of the noise contributions
+                                                    along causal chains, resulting in increasingly deterministic relationships and high
+                                                    R2. We characterize R2-sortability on synthetic data with different simulation
+                                                    parameters and find high values in common settings. Our findings reveal high
+                                                    R2-sortability as an assumption about the data generating process relevant to causal
+                                                    discovery and implicit in many ANM sampling schemes. It should be made explicit,
+                                                    as its prevalence in real-world data is an open question. For causal discovery
+                                                    benchmarking, we provide implementations of R2-sortability, the R2-SortnRegress
+                                                    algorithm, and ANM simulation procedures in our library CausalDisco.</p>
+                                                </div>
+                                              </div>
+
+                                              <div class="item mix internconference" data-year="2023">
+                                                <div class="pubmain">
+                                                  <div class="pubassets">
+                                                    <a href="#" class="pubcollapse">
+                                                      <i class="fa fa-expand"></i>
+                                                    </a>
+                                                    <a href="https://arxiv.org/pdf/2310.13998.pdf" class="tooltips" title="PDF" target="_blank">
+                                                        <i class="fa fa-cloud-download"></i>
+                                                    </a>
+                                                  </div>
+
+                                                  <h4 class="pubtitle">Transductive Learning for Textual Few-Shot Classification in API-based Embedding Models</h4>
+                                                  <div class="pubauthor">Colombo P., Pellegrain V., Boudiaf M., Tami M., Storchan V., Hudelot C., Ben Ayed I., Piantanida P.</div>
+                                                  <div class="pubcite"><span class="label label-warning">International conference</span>EMNLP 2023</div>
+
+                                                </div>
+                                                <div class="pubdetails">
+                                                  <h4>Abstract</h4>
+                                                  <p>Proprietary and closed APIs are becoming increasingly common to process natural language,
+                                                    and are impacting the practical applications
+                                                    of natural language processing, including few-shot classification. Few-shot classification involves training a model to perform a new classification task with a handful of labeled data.
+                                                    This paper presents three contributions. First,
+                                                    we introduce a scenario where the embedding
+                                                    of a pre-trained model is served through a gated
+                                                    API with compute-cost and data-privacy constraints. Second, we propose a transductive inference, a learning paradigm that has been overlooked by the NLP community. Transductive
+                                                    inference, unlike traditional inductive learning,
+                                                    leverages the statistics of unlabeled data. We
+                                                    also introduce a new parameter-free transductive regularizer based on the Fisher-Rao loss,
+                                                    which can be used on top of the gated API
+                                                    embeddings. This method fully utilizes unlabeled data, does not share any label with the
+                                                    third-party API provider and could serve as a
+                                                    baseline for future research. Third, we propose
+                                                    an improved experimental setting and compile
+                                                    a benchmark of eight datasets involving multiclass classification in four different languages,
+                                                    with up to 151 classes. We evaluate our methods using eight backbone models, along with an
+                                                    episodic evaluation over 1,000 episodes, which
+                                                    demonstrate the superiority of transductive inference over the standard inductive setting</p>
+                                                </div>
+                                              </div>
+
+                                              <div class="item mix internconference" data-year="2023">
+                                                <div class="pubmain">
+                                                  <div class="pubassets">
+                                                    <a href="#" class="pubcollapse">
+                                                      <i class="fa fa-expand"></i>
+                                                    </a>
+                                                    <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Boudiaf_Open-Set_Likelihood_Maximization_for_Few-Shot_Learning_CVPR_2023_paper.pdf" class="tooltips" title="PDF" target="_blank">
+                                                        <i class="fa fa-cloud-download"></i>
+                                                    </a>
+                                                  </div>
+
+                                                  <h4 class="pubtitle">Open-Set Likelihood Maximization for Few-Shot Learning</h4>
+                                                  <div class="pubauthor">Boudiaf M., Bennequin E., Tami M., Toubhans A., Piantanida P., Hudelot C., Ben Ayed I.</div>
+                                                  <div class="pubcite"><span class="label label-warning">International conference</span>CVPR 2023</div>
+
+                                                </div>
+                                                <div class="pubdetails">
+                                                  <h4>Abstract</h4>
+                                                  <p>We tackle the Few-Shot Open-Set Recognition (FSOSR)
+                                                    problem, i.e. classifying instances among a set of classes for
+                                                    which we only have a few labeled samples, while simultane-
+                                                    ously detecting instances that do not belong to any known
+                                                    class. We explore the popular transductive setting, which
+                                                    leverages the unlabelled query instances at inference. Moti-
+                                                    vated by the observation that existing transductive methods
+                                                    perform poorly in open-set scenarios, we propose a gen-
+                                                    eralization of the maximum likelihood principle, in which
+                                                    latent scores down-weighing the influence of potential out-
+                                                    liers are introduced alongside the usual parametric model.
+                                                    Our formulation embeds supervision constraints from the
+                                                    support set and additional penalties discouraging overconfi-
+                                                    dent predictions on the query set. We proceed with a block-
+                                                    coordinate descent, with the latent scores and parametric
+                                                    model co-optimized alternately, thereby benefiting from each
+                                                    other. We call our resulting formulation Open-Set Likeli-
+                                                    hood Optimization (OSLO). OSLO is interpretable and
+                                                    fully modular; it can be applied on top of any pre-trained
+                                                    model seamlessly. Through extensive experiments, we show
+                                                    that our method surpasses existing inductive and transduc-
+                                                    tive methods on both aspects of open-set recognition, namely
+                                                    inlier classification and outlier detection. Code is avail-
+                                                    able at https://github.com/ebennequin/few-
+                                                    shot-open-set.</p>
+                                                </div>
+                                              </div>
+
+                                              <div class="item mix natconference" data-year="2022">
                                                 <div class="pubmain">
                                                   <div class="pubassets">
                                                     <a href="#" class="pubcollapse">
