@@ -1,2 +1,4 @@
 
 .DS_Store
+data/enseignements/*.mp4
+data/enseignements/*.webm
